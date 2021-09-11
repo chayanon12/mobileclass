@@ -45,7 +45,7 @@ class _ThaiFontViewerState extends State<ThaiFontViewer> {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: ElevatedButton(
-        style: ElevatedButton.styleFrom(primary: Colors.lightBlueAccent),
+        style: ElevatedButton.styleFrom(primary: Colors.green),
         onPressed: () => _handleSetFont(font),
         child: Text("$font"),
       ),
