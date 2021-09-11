@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.indigo,
+        primarySwatch: Colors.red,
       ),
       home: ThaiFontViewer(),
     );
@@ -45,7 +45,7 @@ class _ThaiFontViewerState extends State<ThaiFontViewer> {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: ElevatedButton(
-        style: ElevatedButton.styleFrom(primary: Colors.green),
+        style: ElevatedButton.styleFrom(primary: Colors.pink),
         onPressed: () => _handleSetFont(font),
         child: Text("$font"),
       ),
@@ -65,7 +65,7 @@ class _ThaiFontViewerState extends State<ThaiFontViewer> {
         title: Text("THAI FONT VIEWER"),
       ),
       body: Container(
-        color: Colors.indigo.shade200,
+        color: Colors.amber.shade200,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
