@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:hello/pages/game/game.dart';
+import 'package:newproject/pages/game/game.dart';
 
 import 'package:flutter/cupertino.dart';
 
